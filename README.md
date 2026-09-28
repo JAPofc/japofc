@@ -1,19 +1,21 @@
 <div align="center">
 
-  <!-- ================= HEADER BANNER ================= -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:030712,35:0f172a,70:1e293b,100:0284c7&height=230&section=header&text=JAPofc%20%F0%9F%AB%A0&fontSize=58&fontColor=38bdf8&animation=fadeIn&desc=hi%20guys%20%7C%20WhatsApp%20Protocol%20%26%20Node.js%20Engineer&descFontSize=18&descAlignY=70&descAlign=50" width="100%" alt="JAPofc Header"/>
-
-  <!-- ================= DYNAMIC TYPING SVG ================= -->
+  <!-- ================= RELIABLE CLOUDFLARE-BACKED HERO HEADER ================= -->
   <a href="https://github.com/JAPofc">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=600&lines=hi+guys+%F0%9F%AB%A0+Welcome+to+my+GitHub;WhatsApp+Multi-Device+%26+Protocol+Engineer+%F0%9F%94%A7;Maintainer+of+Hardened+Baileys+Engine+%F0%9F%9B%A1%EF%B8%8F;Building+Fault-Tolerant+Node.js+Bot+Infrastructure+%E2%9A%A1;VoIP%2C+Protobuf%2C+E2EE+%26+WebSocket+Specialist+%F0%9F%9A%80" alt="Dynamic Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=38&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=65&lines=JAPofc+%E2%80%94+Protocol+Engineer;JAPofc+%7C+Bot+Architect+%F0%9F%AB%A0;Hi+Guys!+Welcome+to+my+Profile+%F0%9F%9A%80" alt="JAPofc Title Banner" />
+  </a>
+  <br/>
+  <a href="https://github.com/JAPofc">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2400&pause=800&color=94A3B8&center=true&vCenter=true&width=700&height=40&lines=WhatsApp+Multi-Device+%26+Binary+Protocols;Node.js+Backend+%26+Fault-Tolerant+Bot+Infra;Maintainer+of+Production-Hardened+Baileys+Engine;Signal+E2EE+%E2%80%A2+VoIP+State+Machines+%E2%80%A2+WASM" alt="JAPofc Subtitle Banner" />
   </a>
 
   <!-- ================= QUICK NAVIGATION ================= -->
   <p align="center">
     <a href="#-system-telemetry"><b>Telemetry</b></a> •
     <a href="#-flagship-project--baileys-engine"><b>Baileys Engine</b></a> •
+    <a href="#-vanilla-vs-japofc-hardened-engine"><b>Comparison</b></a> •
     <a href="#-protocol-pipeline--architecture"><b>Protocol Pipeline</b></a> •
-    <a href="#-core-benchmarks"><b>Benchmarks</b></a> •
+    <a href="#-code-preview--quickstart"><b>Code Preview</b></a> •
     <a href="#-technical-stack"><b>Tech Stack</b></a> •
     <a href="#-github-metrics--analytics"><b>Analytics</b></a>
   </p>
@@ -33,9 +35,6 @@
 
 ### 🖥️ System Telemetry
 
-```
-jap@core:~$ neofetch --stdout
-```
 ```text
   ██████╗  █████╗ ██████╗  ██████╗ ███████╗ ██████╗       OS: Linux x86_64 / Alpine Edge
   ╚══████╗██╔══██╗██╔══██╗██╔═══██╗██╔════╝██╔════╝       Host: @JAPofc Systems 🫠
@@ -44,11 +43,11 @@ jap@core:~$ neofetch --stdout
   ███████╗██║  ██║██║     ╚██████╔╝██║     ╚██████╗       Shell: zsh 5.9 / Node.js 22.x LTS
   ╚══════╝╚═╝  ╚═╝╚═╝      ╚═════╝ ╚═╝      ╚═════╝       Focus: WhatsApp Protocols & Bot Infra
 
-  [●] Memory: 48MB / Dynamic Buffer Pool (Optimized)
-  [●] Wire Protocols: WebSocket Framing • Protobuf (WAProto) • Noise Handshake
+  [●] Memory Buffer: 48MB / Dynamic Memory Pool (Optimized GC)
+  [●] Wire Protocols: WebSocket Framing • Protobuf (WAProto) • Noise Protocol Handshake
   [●] Cryptography: Curve25519 • AES-256-GCM • Signal Protocol E2EE • SHA-256
   [●] Storage Layer: SQLite (WAL Mode) • Atomic Temp Swaps (0600) • In-Memory TTL-LRU
-  [●] Status: "hi guys 🫠 turning complex reverse engineering into rock-solid code."
+  [●] Philosophy: "hi guys 🫠 turning reverse-engineered protocol bytes into rock-solid engines."
 ```
 
 ---
@@ -63,7 +62,7 @@ jap@core:~$ neofetch --stdout
 
 <br/>
 
-> **Production-Hardened, Feature-Rich WhatsApp Multi-Device Library for Node.js**  
+> **Production-Hardened, Feature-Rich WhatsApp Multi-Device Engine for Node.js**  
 > *Engineered from the ground up for zero-crash stability, native VoIP orchestration, interactive flow UI, and enterprise-grade resilience.*
 
 ```
@@ -79,20 +78,18 @@ jap@core:~$ neofetch --stdout
 ╚═══════════════════════════════════════════════════════════════════════════════════╝
 ```
 
-<details>
-  <summary><b>🔍 Deep-Dive Architectural Features & Engineering Highlights (Click to Expand)</b></summary>
-  <br/>
+---
 
-| Module / System | Architecture & Implementation | Benefit |
+### ⚔️ Vanilla vs. JAPofc Hardened Engine
+
+| Feature / Architecture | Standard / Upstream Baileys | JAPofc Hardened Engine ⚡ |
 | :--- | :--- | :--- |
-| **📞 VoIP Call Lifecycle** | `ActiveCall` state machine with real-time packet flow monitoring and 5s fail-safe termination. | Eliminates hung / orphaned calls and memory leaks during high-load VoIP traffic. |
-| **🛡️ Crash Guard & Bug Shield** | Global unhandled rejection sandboxing, wire node sanitization (`findAllBinaryNodes`). | 100% uptime for production bots; stops malicious/malformed crash payloads. |
-| **🔐 Atomic Session Storage** | Temp-file swap strategy with strict `0600` file permissions + SQLite WAL persistence. | Zero session corruption upon unexpected server restarts or kernel SIGKILL. |
-| **🧪 createMockSocket** | Complete drop-in socket test driver synthesizing authentic `proto.WebMessageInfo`. | CI/CD automation and test suites without real SIM cards or risk of account bans. |
-| **⚡ TTL-LRU Cache** | `createGroupMetadataCache` with event-driven invalidation (`groups.update`). | Eliminates redundant network metadata queries, reducing outbound bandwidth by up to 70%. |
-| **⏱️ Supervised Reconnect** | `makeWASocketAuto` + dynamic WA Web revision lookup with jittered backoff. | Instant recovery from network drops without manual intervention. |
-
-</details>
+| **VoIP Call Management** | Basic / No Active Call State Machine | **`ActiveCall` state machine** with auto-watchdog & fail-safe termination |
+| **Crash & Rejection Handling** | Process exits on unhandled rejections | **Global `Crash Guard` & `Bug Shield`** sandboxing all wire anomalies |
+| **Bot Testing in CI/CD** | Requires real SIM / network connection | **`createMockSocket`** for 100% offline, ban-safe deterministic testing |
+| **Session State Safety** | Susceptible to truncation on SIGKILL | **Atomic temp-file swap (`0600` POSIX)** + **SQLite WAL** persistence |
+| **Group Metadata Queries** | Redundant fetches per outgoing message | **`createGroupMetadataCache`** (TTL-LRU with event-driven invalidation) |
+| **Client Versioning** | Hardcoded static fallback revisions | **`makeWASocketAuto`** with real-time automated version watchdog |
 
 ---
 
@@ -118,6 +115,39 @@ jap@core:~$ neofetch --stdout
 │                                       [ SQLite WAL / Atomic 0600 Auth ]     │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### ⚡ Code Preview & Quickstart
+
+```typescript
+import { makeWASocketAuto, useMultiFileAuthState, createGroupMetadataCache } from '@JAPofc/baileys';
+
+async function bootstrap() {
+  const { state, saveCreds } = await useMultiFileAuthState('./session');
+  
+  // Supervised socket initialization with automated live version resolution
+  const sock = await makeWASocketAuto({
+    auth: state,
+    printQRInTerminal: true,
+    cachedGroupMetadata: createGroupMetadataCache({ ttlMs: 5 * 60 * 1000 })
+  });
+
+  sock.ev.on('creds.update', saveCreds);
+
+  // High-throughput message dispatcher
+  sock.ev.on('messages.upsert', async ({ messages, type }) => {
+    if (type !== 'notify') return;
+    for (const msg of messages) {
+      if (!msg.key.fromMe && msg.message) {
+        console.log(`[⚡ Protocol Event] Received payload from: ${msg.key.remoteJid}`);
+      }
+    }
+  });
+}
+
+bootstrap().catch(console.error);
 ```
 
 ---
@@ -199,12 +229,7 @@ jap@core:~$ neofetch --stdout
 ---
 
 <div align="center">
-
-  <!-- ================= FOOTER WAVE ================= -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,30:1e293b,65:0f172a,100:030712&height=110&section=footer" width="100%" alt="Footer Wave"/>
-
   <p align="center">
     <sub>⚡ Engineered with precision by <a href="https://github.com/JAPofc"><b>@JAPofc</b></a> 🫠 • Built for the Open Source Community</sub>
   </p>
-
 </div>
