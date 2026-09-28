@@ -2,7 +2,7 @@
 
   <!-- ================= RELIABLE CLOUDFLARE-BACKED HERO HEADER ================= -->
   <a href="https://github.com/JAPofc">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=60&lines=JAPofc+%E2%80%94+Protocol+Engineer+%F0%9F%AB%A0;+WhatsApp+MultiDevice+%26+Bot+Architect+%E2%9A%A1;+Welcome+to+my+profile+%F0%9F%9A%80" alt="JAPofc Title Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=60&lines=JAPofc+%E2%80%94+Protocol+Engineer+%F0%9F%AB%A0;+WhatsApp+%26+Bot+Architect+%E2%9A%A1;+Welcome+to+my+profile+%F0%9F%9A%80" alt="JAPofc Title Banner" />
   </a>
   <br/>
   <a href="https://github.com/JAPofc">
